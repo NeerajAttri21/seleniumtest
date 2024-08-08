@@ -111,11 +111,11 @@ Thread.sleep(5000);
 //	List<WebElement>tt=	driver.findElements(By.tagName("a"));
 //	System.out.println("Size of the list elements are:"+tt.size());
 //	
-//	for(WebElement ee:tt)
-//	{
-//		
-//		System.out.println(ee.getAttribute("href"));
-//	}
+	for(WebElement ee:tt)
+{
+		
+		System.out.println(ee.getAttribute("href"));
+}
 		//button[@title='Toggle']//*[name()='svg']
 		
 		
