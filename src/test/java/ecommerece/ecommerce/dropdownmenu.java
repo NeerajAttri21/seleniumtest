@@ -111,13 +111,14 @@ Thread.sleep(5000);
 //	List<WebElement>tt=	driver.findElements(By.tagName("a"));
 //	System.out.println("Size of the list elements are:"+tt.size());
 //	
-	for(WebElement ee:tt)
-{
+//	for(WebElement ee:tt)
+//{
+//		
+//		System.out.println(ee.getAttribute("href"));
+//}
+//		//button[@title='Toggle']//*[name()='svg']
 		
-		System.out.println(ee.getAttribute("href"));
-}
-		//button[@title='Toggle']//*[name()='svg']
-		
+System.out.println("THis code is written for testing purpose");
 		
 		driver.findElement(By.xpath("//button[@title='Toggle']//*[name()='svg']")).click();
 		List<WebElement> cc= driver.findElements(By.xpath("//span[@class='rct-checkbox']//*[name()='svg'][2]"));
